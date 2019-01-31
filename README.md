@@ -1,4 +1,4 @@
-# web3js
+# Web Advanced: JS API's
 
 **We are** creative folks. We build things. The way we look at the tools for making is different than Computer Science majors. Most of us, including yours truly, didn't come from a solid programming background and suddenly dove in the deep end, learning to survival and accomplishing goals. It was a hell of an awesome way to kick things off.
 
