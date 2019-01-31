@@ -6,7 +6,7 @@
 
 **We will:** go back to basics. Take a close look at JS. See the bright and dark sides. Demystify language concepts. Learn programming patterns. Look at example code. Write code. Workshop. Examine the landscape of modern Front-End development. See client and server side JS. Pick our tools, and explore the browser as a bountiful platform for business and artistic expression. We will also have cool guests.
 
-We do have a [syllabus](http://) but we all know that one syllabus doesn't fit all. Once we hit the ground running, we will gauge things based on the dynamic of the class. We will play it by the ear to set the  pace, fine tune the curriculum, and personalize based on interest.
+We do have a [syllabus](https://github.com/js-apis/materials/blob/master/PGTE_5505_A_NILCHIANI_S19.pdf) but we all know that one syllabus doesn't fit all. Once we hit the ground running, we will gauge things based on the dynamic of the class. We will play it by the ear to set the  pace, fine tune the curriculum, and personalize based on interest.
 
 	var resources = ['books', 'articles'];
 	 
