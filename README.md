@@ -10,7 +10,7 @@ We do have a [syllabus](https://github.com/js-apis/materials/blob/master/PGTE_55
 
 	var resources = ['books', 'articles'];
 	 
-Refer to [syllabus](http://) for weekly readings. Based on what we discuss in class, everyone's invited to [post good reads, articles and resources](http://).
+We will discuss weekly suggested readings.
 
 You DON'T have to read. But, 
 	
