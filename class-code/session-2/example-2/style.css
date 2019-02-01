@@ -1,0 +1,13 @@
+body {
+  color: black;
+  font-family: monospace;
+}
+#container {
+  width: 80%;
+  margin: 10%;
+}
+.book {
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
