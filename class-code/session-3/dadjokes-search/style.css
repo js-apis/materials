@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: serif;
+}
+#container {
+  width: 80%;
+  margin: 10%;
+}
+.joke {
+  font-weight: 900;
+  font-size: 3em;
+  font-style: italic;
+}
+.random-joke {
+  font-family: monospace;
+  border: 2px solid black;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.loading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10%;
+}

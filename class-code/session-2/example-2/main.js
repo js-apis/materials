@@ -108,7 +108,6 @@ function Book(data) {
   Disregard the `event` passed to this function below. We'll learn about these later.
 */
 document.addEventListener('DOMContentLoaded', function(event) {
-
   /* 
     Create a new `XMLHttpRequest` object. This object helps us access data. `req` stands for `request`.
     This object is basically our assistant. We will send him off to go get data and come back.

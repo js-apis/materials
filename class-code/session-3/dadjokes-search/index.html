@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joke Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="loading hidden">
+      Loading jokes for 
+      <span class="loading-term">
+      </span>
+    </div>
+
+    <div id="container">
+      
+      <div class="search-container">
+        <!-- Form to enter search keyword (term) -->
+        <form class="search-form">
+          <input type="text" class="search-term" placeholder="Search Term" />
+          <button class="search-btn">
+            Search
+          </button>
+        </form>
+      </div>
+
+      <h3 class="not-found hidden">No jokes found :(</h3>
+
+      <ul class="jokes-list">
+      </ul>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>
