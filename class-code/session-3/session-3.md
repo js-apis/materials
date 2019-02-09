@@ -1,0 +1,58 @@
+### Topics 2/7/19
+- ~~Who is NOT on slack?~~
+- ~~Markdown~~
+- Terminal
+	- `cd` 
+	- `~`
+	- `ls`
+	- `which`
+	- `rm`
+	- `rm -rf`
+	- `mkdir`
+	- `touch`
+	- `mv`
+	- `cat`
+	- `echo`
+	- `grep`
+	- `>`
+	- `>>`
+	- `|`
+- Local servers
+- Events (`click`)
+- ~~Scope & Closures~~
+- Function return values
+- JS Objects: `keys` that include more than one word, or a dash - how to add those keys?
+- JSON vs. JS Objects
+	- [Read this](https://stackoverflow.com/questions/8294088/javascript-object-vs-json)	 
+	- `JSON.parse`
+	- `JSON.stringify`
+- `window` object
+- `Array` methods
+	- `push`
+	- `pop`
+	- `shift`
+	- `unshift`
+	- `length`
+	- `forEach`
+	- `map`
+	- `filter`
+- `setInterval` and `setTimeout`
+- [Install Homebrew](https://brew.sh/)
+- install `nvm`
+- `nvm install stabel`
+- `nvm ls`
+- `npm`
+- Asynchrony by example:
+	- callbacks and `setTimeout`
+	- callbacks and `click`
+- Intro to ES2015 classes (convert the frist example into this)
+- [`GET`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) 
+- [`POST`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST) 
+- [`PUT`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT) 
+- [`DELETE`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+- Browser Dev Tool Network Panel
+- Code up the assignment from last week.
+- Code up Dad Joke Search engine! 
+
+
+- Add `like` functionality to it (add `this.el`)
