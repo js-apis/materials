@@ -9,6 +9,7 @@
 </head>
 <body>
     
+    <!-- A `Loading` screen. It's hidden by default -->
     <div class="loading hidden">
       Loading jokes for 
       <span class="loading-term">
@@ -27,8 +28,10 @@
         </form>
       </div>
 
+      <!-- A message to show when no results were found. It is hidden by default -->
       <h3 class="not-found hidden">No jokes found :(</h3>
 
+      <!-- We will populate this list from JavaScript -->
       <ul class="jokes-list">
       </ul>
 

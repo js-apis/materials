@@ -1,4 +1,9 @@
-// https://icanhazdadjoke.com/search?term=hipster
+/* 
+    I wrote this function so you don't have to write out a lot of code to call an API.
+    Using the following function, you just give it:
+    - what URL to hit
+    - what to do when the result is received from the API
+*/
 function getJSON(path, callback) {
   var req = new XMLHttpRequest();
   req.responseType = 'json';
@@ -13,7 +18,6 @@ function getJSON(path, callback) {
 
 // 1. call random joke API
 // 2. print joke in HTML
-
 function printJoke(jokeData) {
   console.log('jokeData: ', jokeData);
   var jokeEl = document.querySelector('.joke');
@@ -24,11 +28,10 @@ function loadRandomJoke() {
   getJSON('https://icanhazdadjoke.com/', printJoke);
 }
 
-window.setInterval(loadRandomJoke, 3000);
-//
-/*
-window.setTimeout(function() {
-  console.log('I am happening after 3 seconds')
-}, 3000);
+/* 
+  `window.setInterval` executes the function you give it (the first parameter) repeatedly every `X` milliseconds.
+  In the example below we say:
+  Repeatedly run `loadRandomJoke` every 3000 milliseconds (every 3 seconds)
 */
+window.setInterval(loadRandomJoke, 3000);
 
