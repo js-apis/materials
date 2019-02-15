@@ -1,0 +1,15 @@
+### Topics 2/7/19
+- ~~How was home work?~~
+- Put all your quesions [here](https://pad.riseup.net/p/2019-js-apis-keep)
+- Go to [this URL](http://omdbapi.com/apikey.aspx) to access API Key for OMDb API 
+- Fill out the form for the "free" option
+- Check your email
+- Click on the link at the end of your email
+- Your key has been activated. Now go back to your email and copy that key. We need it for our code. 
+- What are dependencies, why do we need the and how to we get them?
+- What is a package manager?
+- npm quick tour
+- Boostrap
+- OMDb example
+	- install `jquery` and `underscore` via npm
+	-  
