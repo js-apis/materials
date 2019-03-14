@@ -1,0 +1,34 @@
+### Session 8 - 3/14/2019
+
+- Git overview
+- Promises: a better way to wrangle aynchrony.
+  - Readings:
+      - [Promises primer by Google](https://developers.google.com/web/fundamentals/primers/promises)
+      - http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell/
+      - [Intro to promises](https://flaviocopes.com/javascript-promises/)
+      - [Promises for dummies](https://scotch.io/tutorials/javascript-promises-for-dummies)
+      - [You don't kow JS: Asynchrony and Performance](https://github.com/js-apis/materials/blob/master/books/You%20Don't%20Know%20JS_%20Async%20%26%20Performance.pdf)
+- How can we have the future ... today?
+  - Transpiling
+  - ES6 -> ES5
+  - Babel
+  - Webpack
+    - [Intro](https://flaviocopes.com/webpack/)
+    - [Official site](https://webpack.js.org/)
+    - [What is Webpack?](https://survivejs.com/webpack/what-is-webpack/)
+  - [Boilerplate](https://medium.com/@coreyhowell/webpack-babel-boilerplate-84f720511b32)
+- Fetch api: a promise-based XHR interface.
+  - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [Tutorial on using `fetch`](https://medium.com/@shivani.brijmohan/introduction-to-javascript-fetch-api-b5e7f6045a84)
+  - [Understanding the `fetch` api](https://flaviocopes.com/fetch-api/)
+  - [`fetch` API](https://davidwalsh.name/fetch)
+- [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+  - [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+    - `Content-Type` header
+    - [What are headers?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+  - [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+  - [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
+  - [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+- Thinking in components
+- An introduction to react
+- Beginning with React 
