@@ -30,5 +30,5 @@
   - [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
   - [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
 - Thinking in components
-- An introduction to react
+- [An introduction to react - thinking in react](https://reactjs.org/docs/thinking-in-react.html)
 - Beginning with React 
