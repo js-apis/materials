@@ -11,8 +11,8 @@
 - How can we have the future ... today?
   - Transpiling
   - ES6 -> ES5
-  - Babel
-  - Webpack
+  - [Babel](https://babeljs.io/)
+  - [Webpack](https://webpack.js.org/)
     - [Intro](https://flaviocopes.com/webpack/)
     - [Official site](https://webpack.js.org/)
     - [What is Webpack?](https://survivejs.com/webpack/what-is-webpack/)
@@ -32,3 +32,4 @@
 - Thinking in components
 - [An introduction to react - thinking in react](https://reactjs.org/docs/thinking-in-react.html)
 - [Good React book](https://github.com/js-apis/materials/blob/master/books/survivejs-react.pdf)
+- [Start coding with React](https://github.com/facebook/create-react-app)
