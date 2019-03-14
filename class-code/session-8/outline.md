@@ -31,4 +31,4 @@
   - [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
 - Thinking in components
 - [An introduction to react - thinking in react](https://reactjs.org/docs/thinking-in-react.html)
-- Beginning with React 
+- [Good React book](https://github.com/js-apis/materials/blob/master/books/survivejs-react.pdf)
