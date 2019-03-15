@@ -1,5 +1,3 @@
-import {getPost} from 'api';
-
 /* 
     What we learn below:
     1. Destructuring https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment

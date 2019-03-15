@@ -19,9 +19,11 @@
     - [Official site](https://webpack.js.org/)
     - [What is Webpack?](https://survivejs.com/webpack/what-is-webpack/)
   - [Boilerplate](https://github.com/js-apis/materials/tree/master/class-code/session-8/webpack-babel-boilerplate-starter)
+  - [Dependencies and npm](https://docs.npmjs.com/files/package.json)
 - Fetch api: a promise-based XHR interface.
   - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
   - [Tutorial on using `fetch`](https://medium.com/@shivani.brijmohan/introduction-to-javascript-fetch-api-b5e7f6045a84)
+  - [npm - node package manager](https://www.npmjs.com)
   - [Understanding the `fetch` api](https://flaviocopes.com/fetch-api/)
   - [`fetch` API](https://davidwalsh.name/fetch)
 - [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)

@@ -1,15 +1,18 @@
 // Using https://jsonplaceholder.typicode.com/
-
-import header from './components/Header';
+import header from './components/header';
+import blog from './components/blog';
 import { getPosts } from './api';
 import 'main.css';
 
-header({ title: 'My App' });
+header({ title: 'I am really confused' });
 
 //TODO write a `post` components, use it to populate posts
-//TOSO clicking on `post` should show the post, its comments and a comment posting form. You should be abel to post comments.
+//TODO clicking on `post` should show the post, its comments and a comment posting form. You should be able to post comments.
 getPosts().then(posts => {
   console.log('Have posts! ', posts);
+
+  blog(posts);
+
 })
 
 
