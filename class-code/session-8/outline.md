@@ -1,6 +1,8 @@
 ### Session 8 - 3/14/2019
 
-- Git overview
+- [Git overview](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+- [Git Video](https://www.youtube.com/watch?v=6LhTe8Mz6jM)
+
 - Promises: a better way to wrangle aynchrony.
   - Readings:
       - [Promises primer by Google](https://developers.google.com/web/fundamentals/primers/promises)
@@ -10,7 +12,7 @@
       - [You don't kow JS: Asynchrony and Performance](https://github.com/js-apis/materials/blob/master/books/You%20Don't%20Know%20JS_%20Async%20%26%20Performance.pdf)
 - How can we have the future ... today?
   - Transpiling
-  - ES6 -> ES5
+  - ES2015 -> ES5
   - [Babel](https://babeljs.io/)
   - [Webpack](https://webpack.js.org/)
     - [Intro](https://flaviocopes.com/webpack/)
