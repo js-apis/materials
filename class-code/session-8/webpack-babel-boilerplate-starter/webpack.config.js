@@ -25,7 +25,8 @@ const config = {
   },
   plugins: [
     new CopyPlugin([
-      { from: './src/index.html', to: './index.html', force: true }
+      { from: './src/index.html', to: './index.html', force: true },
+      { from: './src/post.html', to: './post.html', force: true }
     ])
   ],
   resolve: {

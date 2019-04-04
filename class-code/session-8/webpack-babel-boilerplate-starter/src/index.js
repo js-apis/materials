@@ -20,13 +20,14 @@
 */
 import header from './components/header';
 import blog from './components/blog';
+// console.log(blog)
+// function blog() { .......... }
 
 /* 
   Pay attention to how `getPosts` is imported below, copared to `blog` and `header` above.
   Refer to `./api.js` and `./compoentns/header.js` for explanation.
 */
-import { getPosts } from './api';
-
+import { getPosts, getPostById } from './api';
 /* 
   Yep! we can import css files directly into our app like this.
   Pay attention that `main.css` is sitting in the same directory as this file.
@@ -36,16 +37,28 @@ import { getPosts } from './api';
 */
 import 'main.css';
 
-header({ title: 'I am really confused' });
+header({ title: '⚡️ My Awesome Feed ⚡️' });
+
+
+getPostById(20).then(post => {
+  console.log('Post number 20 is: ', post);
+  const containerEl = document.querySelector('#app');
+  const highlightBlogPostContainerEl = document.createElement('div');
+  highlightBlogPostContainerEl.classList.add('highlight');
+  highlightBlogPostContainerEl.classList.add('post');
+  highlightBlogPostContainerEl.innerText = post.title;
+
+  containerEl.appendChild(highlightBlogPostContainerEl);
+})
 
 //TODO write a `post` components, use it to populate posts
 //TODO clicking on `post` should show the post, its comments and a comment posting form. You should be able to post comments.
 getPosts().then(posts => {
-  console.log('Have posts! ', posts);
-
+  //console.log('Have posts! ', posts);
   blog(posts);
-
 })
+
+
 
 
 // POST adds a random id to the object sent

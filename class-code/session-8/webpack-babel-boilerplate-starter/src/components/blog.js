@@ -10,7 +10,7 @@ function blog(data) {
     const blogContainer = document.createElement('div');
     blogContainer.className = 'blog-container';
 
-    console.log('data is ', data);
+    //console.log('data is ', data);
 
     data.forEach((post) => {
         const postEl = document.createElement('div');

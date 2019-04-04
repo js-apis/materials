@@ -32,3 +32,38 @@ body {
   padding: 10%;
 }
 
+ .highlight {
+-webkit-animation: cssAnimation 0.4s infinite ease;
+-moz-animation:  cssAnimation 0.4s infinite ease;
+-o-animation: cssAnimation 0.4s infinite ease;
+}
+@-webkit-keyframes cssAnimation {
+from {-webkit-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-moz-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-o-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+ }
+to {-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+}
+@-moz-keyframes cssAnimation {
+from {-webkit-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-moz-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-o-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+ }
+to {-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+}
+@-o-keyframes cssAnimation {
+from {-webkit-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-moz-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+-o-transform: rotate(5deg) scale(1) skew(10deg) translate(10px) ;
+ }
+to {-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+}
+
+
+
