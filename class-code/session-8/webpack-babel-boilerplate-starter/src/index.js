@@ -63,7 +63,7 @@ getPosts().then(posts => {
 
 // POST adds a random id to the object sent
 /*
-fetch('https://jsonplaceholder.typicode.com/comme', {
+fetch('https://jsonplaceholder.typicode.com/comments', {
   method: 'POST',
   body: JSON.stringify({
     title: 'foo',

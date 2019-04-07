@@ -1,0 +1,23 @@
+### Session 9 - 3/28/2019
+- Promises: Recap.
+- Fetch api: a promise-based XHR interface.
+  - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [Tutorial on using `fetch`](https://medium.com/@shivani.brijmohan/introduction-to-javascript-fetch-api-b5e7f6045a84)
+  - [npm - node package manager](https://www.npmjs.com)
+  - [Understanding the `fetch` api](https://flaviocopes.com/fetch-api/)
+  - [`fetch` API](https://davidwalsh.name/fetch)
+- [HTTP methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+  - [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+    - `Content-Type` header
+    - [What are headers?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+  - [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
+  - [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
+  - [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE)
+- Thinking in components
+- Primer on `MVC` and `MVVM`, 
+  - What are they and why would we use them? Examples in other languages: Django and ROR
+  - What do they look like in JS?
+  - Examples
+- [An introduction to react - thinking in react](https://reactjs.org/docs/thinking-in-react.html)
+- [Good React book](https://github.com/js-apis/materials/blob/master/books/survivejs-react.pdf)
+- [Start coding with React](https://github.com/facebook/create-react-app)
