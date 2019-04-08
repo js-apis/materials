@@ -1,3 +1,9 @@
+<!-- 
+  The `public` directory basically only has our index.html file, the favicon file
+  and `manifest.json` - we won't cover or use `manifest.json` - just let it sit there.
+
+  `manifest.json` is another part of making Progressive Web Apps (for more info, look at the end of the file at ./index.js)
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -26,7 +32,14 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!-- 
+      When in `index.js we wrote: 
+        `ReactDOM.render(<App />, document.getElementById('root'));
+      We meant that the our application will be rendered insie the following div.
+    -->
     <div id="root"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

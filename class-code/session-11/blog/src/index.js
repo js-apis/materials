@@ -23,11 +23,11 @@ import ReactDOM from 'react-dom';
   Pay attention to how we name our files:
   - index.js
   - index.css
-  This means that we can put all the styels related to `index.js` in `index.css`
+  This means that we can put all the styles related to `index.js` in `index.css`
   And import the CSS here.
   Pay attention to how we iport `index.css`. This is not some package we downloaded via `npm`
-  But rather, a `css` file we wrote and maintain ourselves. In this case what we should do, is tell our computer
-  "where exactly" to fetch this file. So, we need to use a `relative path`.
+  But rather, a `css` file we write and maintain ourselves. In this case what we should do, is tell our computer
+  "where exactly" to get this file. So, we need to use a `relative path`.
   `relative path` is a simple concept: 
 
       Where does the file we want to import live, in relation to this current file where we are writing code?
@@ -35,7 +35,7 @@ import ReactDOM from 'react-dom';
   If you look in your `src` directory where this current file is located, you will see that `index.css` is also 
   in the same directory. Which means that the `relative` path for `index.css` is `./index.css`.
   The `./` part of the path means, "In this same directory".
-  If we have put this css file in a sub-directory of `src` called `styles`, we woul import it like this:
+  As an example, if we have put this css file in a sub-directory of `src` called `styles`, we would import it like this:
   `import ./styles/index.css`
  */
 import './index.css';
@@ -43,7 +43,7 @@ import './index.css';
   Much like the `import` statement above, `App.js` is sitting in the same directory as `index.js`
   Which means that we can import it using this simple relative path.
   Pay attention that unlike the `css` file above, we don't need to write the file extention here. 
-  So we can drop the `.js` part. Your computer will know that you want to imprt a `.js` file automatically
+  So we can drop the `.js` part. Your computer will know that you want to impo©48rt a `.js` file automatically
 */
 import App from './App';
 
