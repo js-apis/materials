@@ -6,9 +6,10 @@ class BlogPost extends Component {
     super(props)
   }
 
+
   render() {
     return (
-      <div className="Blog-post">
+      <div onClick={() => { this.props.handleClick(this.props.post.id) }} className="Blog-post">
         <h3>
         {this.props.post.title}
         </h3>
