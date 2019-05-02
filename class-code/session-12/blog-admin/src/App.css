@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Create-post {
+  margin-top: 15px;
+  display: block;
+  clear: both;
+  font-size: 1em;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.Post-body {
+  width: 100%;
+  display: block;
+  clear: both;
+  border: none;
+  background-color: #eee;
+  padding: 10px;
+  min-height: 300px;
+  text-align: left;
+  font-size: 1em;
+}
+.Post-title {
+  background-color: #eee;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Post-submit {
+  width: 100%;
+  border: none;
+  background-color:#282c34;
+  height: 30px;
+  color: white;
+  margin-top: 10px;
+}
+label {
+  clear: both;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Post-title {
+  width: 80%;
+  padding: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
